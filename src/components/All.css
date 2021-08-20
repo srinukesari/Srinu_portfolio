@@ -1,0 +1,155 @@
+figcaption{
+    position: absolute;
+    top: 12vw;
+    right:4rem;
+    font-size:2vw;
+    color: currentColor;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.logo{
+    object-fit:cover;
+    width:3rem;
+
+}
+.nav-link{
+    margin:0px 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius:3%;
+    color:black;
+    font-size:1.2rem;
+}
+.nav-item a:hover{
+    border-left:3px solid #a60e03;
+    border-right:3px solid #a60e03;
+    color:whitesmoke;
+}
+i{
+    margin-right: 3vw;
+    padding-top: 1vw;;
+}
+
+.contact{
+    margin-top:0vw;
+    margin-left:12vw;
+    margin-right: 12vw;
+    font-size:2vw;
+    padding: 0 10vw;
+}
+
+#contact{
+    border-top : 2px solid #c91004;
+}
+#project,#skills,#work{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 3vw;
+    padding-bottom: 3vw;
+}
+#skills,#project{
+    border-left:2px solid #c91004;
+    border-bottom:2px solid #c91004;
+}
+#work{
+    border-right:2px solid #c91004;
+    border-bottom:2px solid #c91004;
+}
+#resume{
+    border-right:2px solid #c91004;
+    padding-top:3vw;
+    padding-bottom: 7vw;
+}
+
+#skill{
+    float:left;
+    padding:2vw;
+}
+.pro {
+    margin-top: .5rem;
+    font-size: 2vw;
+    padding: .45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left: 3px solid #c91004 ;
+}
+
+.download a{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding:10px 20px;
+    font-weight: bolder;
+    color:whitesmoke;
+    background-color: black;
+    border-radius:3%;
+    text-decoration: none
+}
+.download a:hover{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding:10px 20px;
+    color:whitesmoke;
+    background-color: #c91004;
+    border-radius:3%;
+    text-decoration: none
+}
+button{
+    border: none;
+    padding:10px 20px;
+    color: whitesmoke;
+    background-color:#c91004 ;
+    font-weight: bolder;
+
+}
+
+.custom-dialog{
+    min-width: 70%;
+    width: 100%;
+}
+button:hover{
+    color:#c91004 ;
+    font-weight: bolder;
+    border: 2px solid #c91004;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: whitesmoke;
+    border-radius:3%;
+    text-decoration: none
+}
+
+
+.back{
+    max-width: 100%;
+    height: auto;
+    border-bottom:2px solid #c91004;
+    border-right: 2px solid #c91004;
+}
+#pro_con{
+    padding: 1%;
+    font-size: 1rem;
+}
+
+#pro_name{
+    font-size: 1.5rem;
+}
+#pro_title{
+    padding: .5%;
+    font-size: 2rem;
+}
+#pc{
+    padding: .5%;
+    font-size: 2rem;
+}
+#name{
+    font-size: 3vw;
+}
+#title{
+    color:currentColor ;
+    font-size: 2.5vw;
+}
+
+#first{
+    color:black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#last{
+    color:#c91004;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#tag{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.5rem;
+}
