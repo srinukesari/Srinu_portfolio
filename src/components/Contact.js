@@ -12,17 +12,17 @@ class Contact extends Component {
                 <Row>
                     <Col>
                       <a href = 'https://www.linkedin.com/in/kesari-lakshmi-srinivas-020705186/' >
-                      <img src="https://img.icons8.com/material-rounded/36/000000/linkedin--v1.png"/>
+                      <img  src="https://img.icons8.com/material-rounded/36/000000/linkedin--v1.png" alt = " not found"/>
                       </a>
                     </Col>
                     <Col>
                       <a href = 'https://github.com/srinukesari'>
-                      <img src="https://img.icons8.com/material-rounded/36/000000/github.png"/>
+                      <img src="https://img.icons8.com/material-rounded/36/000000/github.png" alt = " not found"/>
                       </a>
                     </Col>
                     <Col>
                       <a href = "https://www.instagram.com/srinu_._lucky/">
-                      <img src="https://img.icons8.com/material-outlined/36/000000/instagram-new--v1.png"/>
+                      <img src="https://img.icons8.com/material-outlined/36/000000/instagram-new--v1.png" alt = " not found"/>
                       </a>
                     </Col>
                 </Row>
@@ -31,7 +31,7 @@ class Contact extends Component {
             <p id = "tag"><b id = "first">mail me at </b><b id="last"> :) srinukesari333@gmail.com</b></p>
             <br></br>
             <center><p>
-              <b id ='first' >Made with <img src="https://img.icons8.com/office/16/000000/filled-like--v1.png"/> by </b> 
+              <b id ='first' >Made with <img src="https://img.icons8.com/office/16/000000/filled-like--v1.png" alt = " not found"/> by </b> 
             <b id ="last" >Srinu </b><b id ='first' >Kesari</b></p></center>
         </Container>
     )

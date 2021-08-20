@@ -3,17 +3,8 @@ import {Container,Row,Col,Button} from 'react-bootstrap'
 import './All.css'
 import resume from './srinu_kesari_profile.pdf'
 import Modal from 'react-bootstrap/Modal'
-import { Document, Page,pdfjs } from 'react-pdf';
-
-
-// Import the main component
-import { Viewer } from '@react-pdf-viewer/core'; // install this library
-// Plugins
-import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout'; // install this library
-// Import the styles
+import { Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
-import '@react-pdf-viewer/default-layout/lib/styles/index.css';
-// Worker
 import { Worker } from '@react-pdf-viewer/core'; // install this library
 
 
