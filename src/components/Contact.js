@@ -31,7 +31,7 @@ class Contact extends Component {
             <p id = "tag"><b id = "first">mail me at </b><b id="last"> :) srinukesari333@gmail.com</b></p>
             <br></br>
             <center><p>
-              <b id ='first' >Made with <img src="https://img.icons8.com/office/16/000000/filled-like--v1.png" alt = " not found"/> by </b> 
+              <b id ='first' >Compile by </b> 
             <b id ="last" >Srinu </b><b id ='first' >Kesari</b></p></center>
         </Container>
     )
