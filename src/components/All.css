@@ -4,7 +4,7 @@ figcaption{
     right:4rem;
     font-size:2vw;
     color: currentColor;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
 }
 .logo{
     object-fit:cover;
@@ -13,7 +13,7 @@ figcaption{
 }
 .nav-link{
     margin:0px 10px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
     border-radius:3%;
     color:black;
     font-size:1.2rem;
@@ -40,7 +40,7 @@ i{
     border-top : 2px solid #c91004;
 }
 #project,#skills,#work{
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
     font-size: 3vw;
     padding-bottom: 3vw;
 }
@@ -71,7 +71,7 @@ i{
 }
 
 .download a{
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
     padding:10px 20px;
     font-weight: bolder;
     color:whitesmoke;
@@ -80,7 +80,7 @@ i{
     text-decoration: none
 }
 .download a:hover{
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
     padding:10px 20px;
     color:whitesmoke;
     background-color: #c91004;
@@ -104,7 +104,7 @@ button:hover{
     color:#c91004 ;
     font-weight: bolder;
     border: 2px solid #c91004;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
     background-color: whitesmoke;
     border-radius:3%;
     text-decoration: none
@@ -128,18 +128,18 @@ button:hover{
 #pro_title{
     padding: .5%;
     font-size: 2rem;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
 }
 #pc{
     padding: .5%;
     font-size: 2rem;
 }
 #name{
-    font-size: 3vw;
+    font-size: 2rem;
 }
 #title{
     color:currentColor ;
-    font-size: 2.5vw;
+    font-size: 1.5rem;
 }
 
 #first{
@@ -151,6 +151,6 @@ button:hover{
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 #tag{
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
 }
