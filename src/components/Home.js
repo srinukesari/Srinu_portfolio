@@ -15,7 +15,7 @@ class Home extends Component {
         <figure className ="position-relative">
         <img src = {srinu} class='back' ></img>
         <figcaption>
-          <p id= "title">Hey
+          <p id= "title">Hai
             <p id ="name"> I'm    <b id='first'> Srinu</b><b id ='last'> Kesari</b></p>
             Full Stack developer
           </p>
