@@ -11,6 +11,21 @@ figcaption{
     width:3rem;
 
 }
+
+.tech-logo{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+    margin:10px 30px;
+    padding: 10px 15px;
+    align-content: center;
+    font-size: medium;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
 .nav-link{
     margin:0px 10px;
     font-family: "Times New Roman", Times, serif;
