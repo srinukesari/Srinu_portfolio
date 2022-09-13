@@ -7,26 +7,18 @@ import Work from './Work'
 import Skills from './Skills'
 import Contact from './Contact'
 import Resume from "./Resume"
+import Intro from './Intro'
 
 class Home extends Component {
   render() {
     return (
       <Container>
-        <figure className ="position-relative">
-        <img src = {srinu} class='back' ></img>
-        <figcaption>
-          <p id= "title">Hai
-            <p id ="name"> I'm    <b id='first'> Srinu</b><b id ='last'> Kesari</b></p>
-            Full Stack developer
-          </p>
-        </figcaption>
+        <Intro/>
         < Skills />
         < Work />
         < Project />
         < Resume />
         < Contact />
-        </figure>
-
         </Container>
     )
   }

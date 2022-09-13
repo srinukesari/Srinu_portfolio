@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.5",
     "@react-pdf-viewer/core": "^2.4.1",
     "@react-pdf-viewer/default-layout": "^2.7.1",
     "@testing-library/jest-dom": "^5.14.1",
