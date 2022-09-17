@@ -213,7 +213,7 @@ button, button:hover, button:focus{
 
 
 .Hi{
-    padding-top:10% ;
+    padding-top:8% ;
     padding-left: 10%;
     font-size:x-large;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
@@ -243,7 +243,7 @@ button, button:hover, button:focus{
 .Desc{
     padding-left: 10%;
     padding-right: 15%;
-    padding-bottom: 12%;
+    padding-bottom: 6%;
     font-size:medium;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     font-weight: 200;
@@ -340,6 +340,7 @@ button, button:hover, button:focus{
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
 }
 
+
 .project-title1{
     padding-top: 1.5%;
     padding-left: 10%;
@@ -349,6 +350,10 @@ button, button:hover, button:focus{
     font-size: xx-large;
     font-weight: 700;
 }
+.project-title1 small{
+    font-size: medium;
+    color:#FEFFFF;
+}
 .project-title2{
     padding-top: 1.5%;
     padding-right: 10%;
@@ -357,6 +362,10 @@ button, button:hover, button:focus{
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     font-size: xx-large;
     font-weight: 700;
+}
+.project-title2 small{
+    font-size: medium;
+    color:#FEFFFF;
 }
 .project-desc1{
     padding-top: 1%;
@@ -379,6 +388,10 @@ button, button:hover, button:focus{
     font-weight: 400;
 }
 
+.pro-icons{
+    padding: 10% 5%;
+}
+
 .tech-stack{
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     font-weight: bold !important;
@@ -394,7 +407,8 @@ button, button:hover, button:focus{
 }
 
 .tech-list{
-    list-style: none;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 .expand-icon{
@@ -555,3 +569,92 @@ button, button:hover, button:focus{
   }
   
   
+
+  /* resume button css */
+ 
+
+.center {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace !important;
+    font-size: large;
+    font-weight:500 !important ;
+    transform: translate(-50%, -50%);
+    outline: none !important;
+
+}
+.center a {
+    text-decoration: none;
+    font-size: 1.5vmax;
+}
+a strong {
+    padding: 15px;
+    position: relative;
+    border: none !important;
+
+}
+a strong:nth-child(1) {
+    color: #66FCF1;
+    background: #17252A;
+}
+a strong:nth-child(2) {
+    color: #17252A;
+    background: #66FCF1;
+}
+a strong:nth-child(1):before {
+    content: attr(data-attr);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #66FCF1;
+    color: #17252A;
+    padding: 15px;
+    transition: 0.5S;
+    transform-origin: top;
+    transform: rotateX(90deg) translateY(-50%);
+}
+.center a:hover strong:nth-child(1):before {
+    transform: rotateX(0deg) translateY(0%);
+} 
+a strong:nth-child(2):before {
+    content: attr(data-attr);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #17252A;
+    color: #66FCF1;
+    padding: 15px;
+    transition: 0.5S;
+    transform-origin: bottom;
+    transform: rotateX(90deg) translateY(50%);
+}
+a:hover strong:nth-child(2):before {
+    transform: rotateX(0deg) translateY(0%);
+} 
+a  strong:nth-child(1):after {
+	content: attr(data-attr);
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #17252A;
+    border: none;
+	transform-origin: bottom;
+	transform: rotateX(0deg) translateY(0%);
+	transition: 0.5s;
+}
+a:hover strong:nth-child(1):after {
+	transform: rotateX(90deg) translateY(50%);
+}
+a strong:nth-child(2):after {
+    content: attr(data-attr);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #66FCF1;
+    padding: 15px;
+    transition: 0.5S;
+    transform-origin: top;
+    transform: rotateX(0deg) translateY(0%);
+}
+a:hover strong:nth-child(2):after {
+    transform: rotateX(90deg) translateY(-50%);
+} 
