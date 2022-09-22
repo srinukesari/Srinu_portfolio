@@ -22,7 +22,6 @@ class Home extends Component {
         <Work />
         <Project />
         <Certificates />
-        <Resume />
         <Contact />
       </Container>
     );
