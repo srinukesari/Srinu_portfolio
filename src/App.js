@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setShowPage(true);
-    }, 1700);
+    }, 700);
   }, []);
   return (
     <div className="main-div">

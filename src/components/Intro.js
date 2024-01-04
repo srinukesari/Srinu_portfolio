@@ -22,7 +22,7 @@ const Intro = () => {
     "Hi, my name is",
     "Srinu Kesari.",
     "I love to play with codes!",
-    "I'm a full stack developer, coding enthusiast and good at problem solving!. At present, I'm centered on devising and integrating user policy flow for access and other human interactive features of product at BorderFree",
+    "I'm a Senior Software Engineer at Beautifulcode LLP, coding enthusiast and good at problem solving. I love to make my hands dirt with codes!",
   ];
 
   return (
