@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import "./All.css";
 import { Grid } from "@mui/material";
 import WorkCard from "./WorkCard";
+import BClogo from "./CompanyLogo/BClogo.jpeg";
 import BfreeLogo from "./CompanyLogo/Bfree_logo.jpeg";
 import Vlogo from "./CompanyLogo/virtusa_logo.jpeg";
 import Slogo from "./CompanyLogo/SchemaxLog.jpeg";
@@ -13,10 +14,24 @@ const Work = () => {
   const worklist = [
     {
       id: 0,
+      company: "Beautifulcode",
+      title: "Senior Software Engineer",
+      period: "Feb 2023 - present",
+      tech_stack: ["javascript", "React", "Golang", "GCP"],
+      tasks: [
+        "As a part of CUE(Campaign Update Engine) team, our primary responsibility has been to design, develop, and deploy micro-services that facilitate the seamless launching of campaigns in various DSP’s(demand side platforms) and updating those campaigns using various services.",
+        "Developed and implemented gRPC endpoints for the Sojern Portal 3.0, contributing to efficient data display. Managed the flow to ensure optimal performance and user experience.",
+        "Designed cron scheduler jobs responsible for handling the periodic updating and deletion of records, particularly focusing on efficiently managing soft-deleted data which results in cleaning up 90% deleted/un-used campaigns at DSP’s side.",
+        "Led the implementation of gateways, serving as a crucial interface for managing requests from the Sojern portal.",
+      ],
+      logo: BClogo,
+    },
+    {
+      id: 0,
       company: "Borderfree",
-      title: "Full Stack Developer",
-      period: "Nov 2021 - present",
-      tech_stack: ["javascript", "react", "redux", "go", "aws"],
+      title: "Software Engineer",
+      period: "Nov 2021 - Feb 2023",
+      tech_stack: ["javascript", "React", "Golang", "AWS"],
       tasks: [
         "Implemented Permissions Engine which restricts the access to events functionalities and user settings etc., in REVO 2.0.",
         "Devised Authentication of Admin through OTP and Magic Link in REVO 2.0.",

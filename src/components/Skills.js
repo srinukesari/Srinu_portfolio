@@ -8,6 +8,22 @@ import "./All.css";
 const Skills = () => {
   const skillset = [
     {
+      link: "https://img.icons8.com/cute-clipart/46/go-logo.png",
+      name: "golang",
+    },
+    {
+      link: "https://img.icons8.com/officel/50/000000/react.png",
+      name: "react",
+    },
+    {
+      link: "https://img.icons8.com/color/48/000000/javascript--v2.png",
+      name: "javascript",
+    },
+    {
+      link: "https://img.icons8.com/fluency/48/typescript--v2.png",
+      name: "typescript",
+    },
+    {
       link: "https://img.icons8.com/color/48/000000/python--v2.png",
       name: "python",
     },
@@ -16,28 +32,16 @@ const Skills = () => {
       name: "html",
     },
     {
-      link: "https://img.icons8.com/color/48/000000/css3.png",
-      name: "css",
-    },
-    {
-      link: "https://img.icons8.com/color/48/000000/javascript--v2.png",
-      name: "javascript",
-    },
-    {
-      link: "https://img.icons8.com/nolan/50/php.png",
-      name: "php",
-    },
-    {
       link: "https://img.icons8.com/fluency/50/000000/mysql-logo.png",
       name: "mysql",
     },
     {
-      link: "https://img.icons8.com/officel/50/000000/react.png",
-      name: "react",
-    },
-    {
       link: "https://img.icons8.com/color/48/000000/redux.png",
       name: "redux",
+    },
+    {
+      link: "https://img.icons8.com/fluency/48/google-cloud.png",
+      name: "gcp",
     },
     {
       link: "https://img.icons8.com/color/48/000000/amazon-web-services.png",
@@ -86,6 +90,14 @@ const Skills = () => {
     {
       link: "https://img.icons8.com/color/50/000000/java-coffee-cup-logo.png",
       name: "java",
+    },
+    {
+      link: "https://img.icons8.com/nolan/50/php.png",
+      name: "php",
+    },
+    {
+      link: "https://img.icons8.com/color/48/000000/css3.png",
+      name: "css",
     },
     {
       link: "https://img.icons8.com/wired/50/000000/postman-api.png",

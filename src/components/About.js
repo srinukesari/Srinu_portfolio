@@ -37,10 +37,10 @@ const About = () => {
               <LightSpeedDiv
                 position="left"
                 text="
-              Jump start to present, and I am currently working in a fast-paced
-              startup and I focus on the core functionalities of product like Revo
-              Policy Engine, 1:1 calls, Authentication & Authorization and
-              Advertising engine etc.,"
+              Jump start to present, and I am currently working as Senior Software 
+              Engineer and I focus on the core micro-services of product Sojern, those
+              are Campaign Service, Creative Service, Campaign Updaters, DSP(Demand Side 
+              Platform) Integrations etc.,"
               />
             </p>
           </Grid>
