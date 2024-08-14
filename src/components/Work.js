@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import "./All.css";
 import { Grid } from "@mui/material";
 import WorkCard from "./WorkCard";
+import Techmojologo from "./CompanyLogo/Techmojo_logo.jpeg";
 import BClogo from "./CompanyLogo/BClogo.jpeg";
 import BfreeLogo from "./CompanyLogo/Bfree_logo.jpeg";
 import Vlogo from "./CompanyLogo/virtusa_logo.jpeg";
@@ -14,9 +15,22 @@ const Work = () => {
   const worklist = [
     {
       id: 0,
+      company: "Techmojo",
+      title: "Member of Technical Staff",
+      period: "Jan 2024 - April 2024",
+      tech_stack: ["Golang", "javascript", "React", "GCP"],
+      tasks: [
+        "Spearheaded a tech initiative by introducing unit testing for the OfferVal microservice in Golang, achieving 92% test coverage while maintaining a threshold of 80%. This involved selecting appropriate testing frameworks and mock packages to ensure comprehensive testing coverage",
+        "Optimised logging for multiple microservices and enhanced the internal cache structure, which was initially complex and challenging to comprehend.",
+        "Devised a solution to address the duplication of gRPC proto-generated files, which was leading to conflicting sources of truth.Led the implementation of gateways, serving as a crucial interface for managing requests from the Sojern portal.",
+      ],
+      logo: Techmojologo,
+    },
+    {
+      id: 0,
       company: "Beautifulcode",
       title: "Senior Software Engineer",
-      period: "Feb 2023 - present",
+      period: "Feb 2023 - Jan 2024",
       tech_stack: ["javascript", "React", "Golang", "GCP"],
       tasks: [
         "As a part of CUE(Campaign Update Engine) team, our primary responsibility has been to design, develop, and deploy micro-services that facilitate the seamless launching of campaigns in various DSP’s(demand side platforms) and updating those campaigns using various services.",

@@ -27,20 +27,15 @@ const About = () => {
               <LightSpeedDiv
                 position="left"
                 text="
-            Hello! My name is srinu and i am fascinated to code, solve problem
-            by finding proper logic. My key areas are Data Structures and
-            Algorithms(DSA) bcz from my schooling, Maths is my favourite which
-            turns me to pick computers as my Career!"
+            Hello! My name is Srinu, and I have a deep passion for coding and problem-solving. I enjoy developing efficient solutions by finding the right logic. My key strengths lie in Data Structures and Algorithms (DSA), a natural progression from my love for math, which has been my favorite subject since school and inspired me to pursue a career in computer science."
               />
               <br />
               <br />
               <LightSpeedDiv
                 position="left"
                 text="
-              Jump start to present, and I am currently working as Senior Software 
-              Engineer and I focus on the core micro-services of product Sojern, those
-              are Campaign Service, Creative Service, Campaign Updaters, DSP(Demand Side 
-              Platform) Integrations etc.,"
+              Jump start to present, pursuing my Master’s in Applied Computer Science 
+              at Concordia University, Montreal, Quebec."
               />
             </p>
           </Grid>

@@ -102,7 +102,7 @@ class Contact extends Component {
                 </a>
               </Grid>
               <Grid item>
-                <a href="https://www.instagram.com/srinu_._lucky/">
+                <a href="https://www.instagram.com/srinu_kesari/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
