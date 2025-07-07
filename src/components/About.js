@@ -34,8 +34,8 @@ const About = () => {
               <LightSpeedDiv
                 position="left"
                 text="
-              Jump start to present, pursuing my Master’s in Applied Computer Science 
-              at Concordia University, Montreal, Quebec."
+              Jump start to present, I’m pursuing my Master’s in Applied Computer Science at Concordia University, 
+              Montreal, Quebec, while also working as a Teaching Assistant."
               />
             </p>
           </Grid>

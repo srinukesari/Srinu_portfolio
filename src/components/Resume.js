@@ -1,11 +1,11 @@
 import React from "react";
 import "./All.css";
-import resume from "../resume.pdf";
+import resume from "../Kesari_SoftwareEngineer.pdf";
 
 const Resume = () => {
   return (
-    <div class="center">
-      <a href={resume}>
+    <div className="center">
+      <a href={resume} target="_blank" rel="noopener noreferrer">
         <strong className="res" data-attr="View">
           View
         </strong>

@@ -1,4 +1,3 @@
-import { Fade, Zoom } from "react-reveal";
 import "./All.css";
 import Flash from "react-reveal/Flash";
 const Loading = () => {
