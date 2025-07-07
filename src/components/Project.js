@@ -1,30 +1,42 @@
-import React, { Component } from "react";
+import React from "react";
 import { Grid } from "@mui/material";
 import "./All.css";
-import { Roll, Fade } from "react-reveal";
+import { Fade } from "react-reveal";
 import { LightSpeedDiv } from "./AllStyles";
 import { GitLink, SiteLink } from "./ProIcons";
 const Project = () => {
   const project = [
     {
       ind: 1,
-      title: "LineUp",
-      status: "(In Progress)",
+      title: "MatchMyResume",
       desc: [
-        "Website which gives best route map on selected spots.",
-        "Python , Django, React, DjangoRestFramework, PostgreSQL, HTML, CSS, VScode",
+        "Website which gives ATS Score for your resumes based job descriptions.",
+        "It also provides a list of skills to be added in resume based on job description for Top one.",
+        "Tech stack: Python , Fast API, React, openAI API, Railway, Netlify, VScode",
       ],
       left: true,
-      git: "https://github.com/srinukesari/react-django-lineup",
+      git: "https://github.com/srinukesari/matchmyresume",
+      site: "https://matchmyresume.netlify.app/",
     },
     {
       ind: 2,
+      title: "This Portfolio Website",
+      desc: [
+        "Yes, the site you're browsing right now — it's one of my projects!",
+        "Built from scratch to showcase my work, skills, and love for clean UI/UX.",
+        "You're literally inside the project already. 😄",
+        "Tech stack: React, MUI, Framer Motion, Netlify",
+      ],
+      left: true,
+    },
+    {
+      ind: 3,
       title: "GoCart",
       desc: [
         "Ecomerce web page with basic cart,checkout functionalities, devised using AWS",
         "Dynamo DB, Lambda, API gateway, React, Node.js, VScode",
       ],
-      left: false,
+      left: true,
       git: "https://github.com/srinukesari/Ecomerce_web_page",
       site: "https://borderfree-gocart.netlify.app/",
     },
@@ -37,7 +49,6 @@ const Project = () => {
       ],
       left: true,
       git: "https://github.com/srinukesari/Django_Project__pyrun",
-      site: "http://pyrun.herokuapp.com/",
     },
     {
       ind: 4,
@@ -46,18 +57,8 @@ const Project = () => {
         "NLP project which converts hand-written text document to system document.",
         "Horizontal histogram projection, Vertical Projection Profile (VPP), Top DownProfile(TDP) Algorithms were used",
       ],
-      left: false,
-      git: "https://github.com/srinukesari/Hand-to-Doc---NLP/tree/master",
-    },
-    {
-      ind: 5,
-      title: "On Stream Ballot",
-      desc: [
-        "local-voting system deployed using Wamp Server in localhost.",
-        "HTML, CSS, JavaScript, PHP, MySQL",
-      ],
       left: true,
-      git: "https://github.com/srinukesari/On-Stream-Ballot",
+      git: "https://github.com/srinukesari/Hand-to-Doc---NLP/tree/master",
     },
   ];
   return (
@@ -70,9 +71,10 @@ const Project = () => {
         </Grid>
         <Grid container>
           {project.map((item, index) =>
-            item.left == true ? (
+            item.left ? (
               <Grid
                 container
+                key={item.ind}
                 direction={"row"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -111,6 +113,7 @@ const Project = () => {
               </Grid>
             ) : (
               <Grid
+                key={item.ind}
                 container
                 direction={"row-reverse"}
                 justifyContent={"flex-end"}

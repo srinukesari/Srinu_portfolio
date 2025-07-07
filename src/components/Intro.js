@@ -1,9 +1,7 @@
 import Grid from "@mui/system/Unstable_Grid/Grid";
-import { Container } from "react-bootstrap";
-import srinu from "./pics/srinu_kesari.png";
 import { useState } from "react";
 import { useTrail, animated as a } from "react-spring";
-import { FadeDiv, BounceDiv } from "./AllStyles";
+import { FadeDiv } from "./AllStyles";
 import Resume from "./Resume";
 const config = { mass: 5, tension: 2000, friction: 200 };
 
@@ -43,6 +41,7 @@ const Intro = () => {
         <Grid direction="row" xs={12} sm={12} md={12} lg={12}>
           {trail.map(({ x, height, ...rest }, index) => (
             <a.div
+              key={classhandler[index]}
               style={{
                 ...rest,
                 transform: x.interpolate((x) => `translate3d(0,${x}px,0)`),

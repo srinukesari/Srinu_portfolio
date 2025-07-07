@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import "./All.css";
 import { Grid } from "@mui/material";
 import WorkCard from "./WorkCard";
@@ -7,12 +7,24 @@ import BClogo from "./CompanyLogo/BClogo.jpeg";
 import BfreeLogo from "./CompanyLogo/Bfree_logo.jpeg";
 import Vlogo from "./CompanyLogo/virtusa_logo.jpeg";
 import Slogo from "./CompanyLogo/SchemaxLog.jpeg";
-import { Rotate, Zoom } from "react-reveal";
+import Concordia from "./CompanyLogo/Concordia_logo.png";
+import { Zoom } from "react-reveal";
 import { LightSpeedDiv } from "./AllStyles";
 
 const Work = () => {
-  const [index, setIndex] = useState(0);
   const worklist = [
+    {
+      id: 0,
+      company: "Concordia",
+      title: "Teaching Assistant",
+      period: "Jan 2025 - present",
+      tech_stack: ["COMP353", "COMP348", "COMP249", "SOEN341"],
+      tasks: [
+        "Conducted tutorials to explain complex topics to students, reinforcing their understanding of the course material.",
+        "Led POD sessions to address students' doubts and provide additional support based on the professor’s lectures",
+      ],
+      logo: Concordia,
+    },
     {
       id: 0,
       company: "Techmojo",
@@ -43,7 +55,7 @@ const Work = () => {
     {
       id: 0,
       company: "Borderfree",
-      title: "Software Engineer",
+      title: "Product Engineer",
       period: "Nov 2021 - Feb 2023",
       tech_stack: ["javascript", "React", "Golang", "AWS"],
       tasks: [
@@ -98,7 +110,7 @@ const Work = () => {
         alignItems="flex-start">
         <Grid xs={12} sm={12} md={12} lg={12}>
           <p className="skill-title">
-            <LightSpeedDiv position="right" text="My Professional journey:" />
+            <LightSpeedDiv position="right" text="My Journey:" />
           </p>
         </Grid>
         {worklist.map((obj) => (
